@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+  color: darkblue;
+}
+
+.display {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 240px;
+  height: 40px;
+  font-size: 20px;
+  text-align: right;
+  padding: 5px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: gray;
+  color: white;
+}
